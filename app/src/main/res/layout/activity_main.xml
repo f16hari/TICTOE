@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.h.h.tictoe.MainActivity"
     android:orientation="vertical">
 
     <RelativeLayout
@@ -66,8 +62,8 @@
             android:layout_alignEnd="@+id/textView4"
             android:layout_alignRight="@+id/textView4"
             android:layout_alignTop="@+id/textView3"
-            android:text="Button"
-            android:clickable="true"/>
+            android:clickable="true"
+            android:text="Button" />
 
         <ImageView
             android:id="@+id/button2"
@@ -76,8 +72,8 @@
             android:layout_alignLeft="@+id/textView4"
             android:layout_alignStart="@+id/textView4"
             android:layout_alignTop="@+id/textView"
-            android:text="Button"
-            android:clickable="true"/>
+            android:clickable="true"
+            android:text="Button" />
 
         <ImageView
             android:id="@+id/button3"
@@ -86,8 +82,8 @@
             android:layout_alignBottom="@+id/textView3"
             android:layout_alignEnd="@+id/textView2"
             android:layout_alignRight="@+id/textView2"
-            android:text="Button"
-            android:clickable="true"/>
+            android:clickable="true"
+            android:text="Button" />
 
         <ImageView
             android:id="@+id/button4"
@@ -96,8 +92,8 @@
             android:layout_alignBottom="@+id/textView3"
             android:layout_alignLeft="@+id/button7"
             android:layout_alignStart="@+id/button7"
-            android:text="Button"
-            android:clickable="true"/>
+            android:clickable="true"
+            android:text="Button" />
 
         <ImageView
             android:id="@+id/button5"
@@ -106,8 +102,8 @@
             android:layout_alignBottom="@+id/textView"
             android:layout_alignLeft="@+id/button8"
             android:layout_alignStart="@+id/button8"
-            android:text="Button"
-            android:clickable="true"/>
+            android:clickable="true"
+            android:text="Button" />
 
         <ImageView
             android:id="@+id/button6"
@@ -117,8 +113,8 @@
             android:layout_alignBottom="@+id/button7"
             android:layout_alignEnd="@+id/textView2"
             android:layout_alignRight="@+id/textView2"
-            android:text="Button"
-            android:clickable="true"/>
+            android:clickable="true"
+            android:text="Button" />
 
         <ImageView
             android:id="@+id/button7"
@@ -128,8 +124,8 @@
             android:layout_alignBottom="@+id/button8"
             android:layout_alignLeft="@+id/button9"
             android:layout_alignStart="@+id/button9"
-            android:text="Button"
-            android:clickable="true"/>
+            android:clickable="true"
+            android:text="Button" />
 
         <ImageView
             android:id="@+id/button8"
@@ -139,8 +135,8 @@
             android:layout_alignLeft="@+id/button2"
             android:layout_alignStart="@+id/button2"
             android:layout_marginBottom="13dp"
-            android:text="Button"
-            android:clickable="true"/>
+            android:clickable="true"
+            android:text="Button" />
 
         <ImageView
             android:id="@+id/button9"
@@ -148,10 +144,9 @@
             android:layout_height="50dp"
             android:layout_alignTop="@+id/textView"
             android:layout_centerHorizontal="true"
-            android:text="Button"
-            android:clickable="true"/>
+            android:clickable="true"
+            android:text="Button" />
     </RelativeLayout>
-
 
 
 </LinearLayout>
